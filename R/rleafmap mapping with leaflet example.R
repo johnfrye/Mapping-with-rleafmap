@@ -16,7 +16,10 @@ time <- time_stamp()
 
 # packages ----------------------------------------------------------------
 
-pkgs = c("rleafmap", "spatstat", "maptools")
+pkgs = c("devtools", "purrr", "plyr", 
+         "rpart", "magrittr", "httr", "xlsx", "readxl", "openxlsx", "data.table", 
+         "reshape2", "dplyr", "stringr", "stringi", "rio", "smutilities", 
+         "WorksheetFunctions", "rleafmap", "spatstat", "maptools")
 inst = lapply(pkgs, library, character.only = TRUE)
 
 # map ---------------------------------------------------------------------
